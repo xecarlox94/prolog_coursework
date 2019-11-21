@@ -5,7 +5,7 @@
 % F28PL Coursework, Prolog    <--- sanity check
 
 
-% Due: Friday 29th of Nov, 2019, at 3:30pm sharp.
+% Due: Friday 6th of Dec, 2019, at 3:30pm sharp.
 % Submit (this file) via GitLab as usual.
 % This coursework constitutes 6% of your final F28PL mark.
 

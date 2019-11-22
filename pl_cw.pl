@@ -69,7 +69,7 @@ Testing on GitLab will NOT be provided for prolog. Your own test will in this ca
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Question 4
+% Question 3
 %
 % 4a. Explain what backtracking has to do with Prolog. You might find this webpage helpful:
 % https://www.doc.gold.ac.uk/~mas02gw/prolog_tutorial/prologpages/search.html
@@ -88,7 +88,7 @@ Testing on GitLab will NOT be provided for prolog. Your own test will in this ca
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Question 5
+% Question 4
 %
 % Write a database for a predicate cycleoflife/1 such that the query
 %  cycleoflife(X)

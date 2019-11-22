@@ -71,10 +71,10 @@ Testing on GitLab will NOT be provided for prolog. Your own test will in this ca
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Question 3
 %
-% 4a. Explain what backtracking has to do with Prolog. You might find this webpage helpful:
+% 3a. Explain what backtracking has to do with Prolog. You might find this webpage helpful:
 % https://www.doc.gold.ac.uk/~mas02gw/prolog_tutorial/prologpages/search.html
 %
-% 4b. What is Cut in prolog and what does it have to do with backtracking? Explain your answer by giving examples of Cut
+% 3b. What is Cut in prolog and what does it have to do with backtracking? Explain your answer by giving examples of Cut
 % used in at least one prolog rule, and explain how it affects the execution/resolution process.
 %
 

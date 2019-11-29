@@ -62,7 +62,9 @@ cmul([X1,X2],[Y1,Y2],[Z1,Z2]) :-
 % such that seqadd(X,Y,Z) succeeds when X and Y are lists of integers of the same length and
 % Z is their sequence sum.
 
+seqadd( [],[],[] ).
 
+seqadd( [X|TX], [Y|TY], [Z|TZ] ) :- seqadd( TX, TY, TZ ), Z is X + Y.
 
 
 

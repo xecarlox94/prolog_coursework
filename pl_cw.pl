@@ -105,6 +105,10 @@ Testing on GitLab will NOT be provided for prolog. Your own test will in this ca
 % complex code, there’s probably something amiss.)
 
 
+cycleoflife(eat).
+cycleoflife(sleep).
+cycleoflife(code).
+cycleoflife(X) :- cycleoflife(X).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % END ANSWER TO Question 5

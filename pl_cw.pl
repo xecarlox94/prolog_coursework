@@ -80,6 +80,10 @@ seqadd( [X|TX], [Y|TY], [Z|TZ] ) :- seqadd( TX, TY, TZ ), Z is X + Y.
 %
 % 3a. Explain what backtracking has to do with Prolog. You might find this webpage helpful:
 % https://www.doc.gold.ac.uk/~mas02gw/prolog_tutorial/prologpages/search.html
+
+
+% The prolog language stores the knowledge if a three structure. All its clauses, including facts and rules, are stored in a three data structure. When the query is made in a intrepreter, the program does a depth first search through the knowledge database.
+% This search will first search for the query predicate and if it finds it it will then search the first of its children with the purpose of instantiating the predicate variables or to verify if the query given predicate atom exists. If the first item does not unify the search will be backtracked recursively and look in the next children. This backtracking will then exhaust all the possible children clauses to try to unify the query, if not found in any of the backtrack searches it will fail and declare the query false.
 %
 % 3b. What is Cut in prolog and what does it have to do with backtracking? Explain your answer by giving examples of Cut
 % used in at least one prolog rule, and explain how it affects the execution/resolution process.
